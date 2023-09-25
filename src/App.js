@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import NotesList from "./components/NotesList";
+import NotesList from "./components/organisms/NotesList";
 import { nanoid } from "nanoid";
-import Search from "./components/Search";
-import Header from "./components/Header";
-import Siderbar from "./components/Siderbar";
+import Search from "./components/organisms/Search";
+import Header from "./components/molecules/Header";
+import Siderbar from "./components/organisms/Siderbar";
 
 const App = () => {
   const [loading, setLoading] = useState(true);

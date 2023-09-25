@@ -1,7 +1,7 @@
 
 import React from "react";
-import Note from "./Note"; 
-import AddNote from "./AddNote";
+import Note from "../molecules/Note"; 
+import AddNote from "../atoms/AddNote";
 
 const NotesList = ({ notes, handleDeleteNote, selectedColor, handleAddNote }) => {
     return (
